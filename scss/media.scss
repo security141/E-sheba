@@ -1,0 +1,528 @@
+@media (max-width: 1240px){
+  .consulting__title{
+    text-align: center;
+  }
+  .consulting__list{
+    flex-wrap: wrap;
+    &-item{
+      margin: 0 10px 10px 10px;
+      &:last-child{
+        margin: 0 10px 10px 10px;
+      }
+    }
+  }
+}
+// TEMP START
+@media (min-width: 952px) and (max-width: 1240px){
+  .consulting__list-item{
+    &:last-child{
+      max-width: 895px;
+      text-align: center;
+      .consulting__list-item-image{
+        margin: 0 auto 12px auto;
+      }
+    }
+  }
+}
+// TEMP END
+@media (max-width: 1150px){
+  .header__wrapper::after{
+    display: none;
+  }
+  .header__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .header__info{
+    left: 50px;
+  }
+  .consulting__wrapper{
+    padding: 70px 0;
+  }
+  .consulting__list{
+    margin-bottom: 50px;
+  }
+  .consulting__info{
+    justify-content: space-evenly;
+    &-image{
+      margin-right: 0;
+    }
+  }
+  .reviews__wrapper{
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+  }
+  .reviews__info{
+    margin-bottom: 50px;
+  }
+  .future__info{
+    flex-direction: column;
+    align-items: center;
+    &-text{
+      max-width: 666px;
+      margin: 0 0 40px 0;  
+    }
+  }
+}
+// TEMP START
+@media (min-width: 1050px) and (max-width: 1150px){
+  .consulting__info-title{
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .consulting__info-list{
+    margin-bottom: 20px;
+  }
+  .consulting__info-item-text{
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+}
+// TEMP END
+@media (max-width: 1050px){
+  .consulting__info{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    &-image{
+      margin-bottom: 20px;
+    }
+  }
+}
+@media (max-width: 952px){
+  .consulting__title{
+    font-size: 44px;
+  }
+  .footer__top{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer__desc, .footer__links, .footer__address{
+    margin: 0 20px 20px 20px;
+  }
+}
+@media (max-width: 890px){
+  .header__nav{
+    display: none;
+  }
+  .future__info{
+    margin-bottom: 90px;
+  }
+  .future__form{
+    padding:  80px 70px;
+  }
+  .input-title{
+    font-size: 30px;
+    margin-bottom: 27px;
+  }
+}
+@media (max-width: 750px){
+  .header__info{
+    bottom: -100px;
+  }
+  .header__info-item-title{
+    font-size: 48px;
+  }
+  .header__info-item-desc{
+    font-size: 14px;
+  }
+  .future__wrapper{
+    padding: 90px 0;
+  }
+  .future__title{
+    max-width: 100%;
+  }
+  .future__info-text{
+    text-align: center;
+  }
+  .future__img{
+    height: 350px;
+  }
+}
+@media (max-width: 650px){
+  .consulting__list-item{
+    max-width: 100%;
+    text-align: center;
+    &-image{
+      margin: 0 auto 12px auto;
+    }
+  }
+}
+@media (max-width: 630px){
+  .header{
+    border-width: 112px;
+  }
+  .header__top{
+    padding-bottom: 100px;
+  }
+  .header__title{
+    font-size: 46px;
+    margin-bottom: 10px;
+  }
+  .header__desc{
+    font-size: 14px;
+    max-width: 330px;
+  }
+  .header__info{
+    left: 25px;
+    bottom: -85px;
+  }
+  .header__info-item-title{
+    font-size: 38px;
+  }
+  .header__info-item-desc{
+    font-size: 13px;
+  }
+  .future__form{
+    padding: 60px 50px;
+  }
+  .input-title{
+    font-size: 25px;
+  }
+  .footer__top{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__links{
+    text-align: center;
+  }
+}
+@media (max-width: 580px){
+  .consulting__info-image img{
+    height: 250px;
+  }
+  .consulting__info-title{
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  .consulting__info-item-text{
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+}
+@media (max-width: 550px){
+  .reviews__qoute-top{
+    flex-direction: column;
+    align-items: center;
+  }
+  .reviews__qoute-author{
+    margin-bottom: 15px;
+  }
+  .future__img{
+    height: 280px;
+  }
+}
+@media (max-width: 530px){
+  .header{
+    border-width: 90px;
+  }
+  .header__info{
+    left: 10px;
+    bottom: -70px;
+  }
+  .header__info-list-item{
+    padding: 0 22px;
+  }
+  .header__info-item-title{
+    font-size: 30px;
+  }
+  .header__info-item-desc{
+    font-size: 12px;
+  }
+  .future__info{
+    margin-bottom: 50px;
+  }
+  .future__form{
+    padding: 40px;
+  }
+  .input-title{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .form-input{
+    min-height: 70px;
+    padding: 15px 30px;
+  }
+  .send-btn{
+    min-height: 70px;
+  }
+  .send-btn__image{
+    height: 40px;
+    width: 40px;
+  }
+}
+@media (max-width: 500px){
+  .header__top{
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__logo{
+    margin-bottom: 25px;
+  }
+  .header__title{
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+  .header__desc{
+    font-size: 13px;
+    max-width: 290px;
+    margin-bottom: 50px;
+  }
+  .consulting__list-item{
+    margin: 0 0 10px 0;
+    &:last-child{
+      margin: 0 0 10px 0;
+    }
+  }
+}
+@media (max-width: 480px){
+  .consulting__info-image img{
+    height: 200px;
+  }
+  .consulting__info-title{
+    font-size: 32px;
+    margin-bottom: 14px;
+  }
+  .consulting__info-item-text{
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+  .reviews__title{
+    font-size: 40px;
+  }
+}
+@media (max-width: 440px) {
+  .future__info{
+    margin-bottom: 70px;
+    &-text{
+      margin-bottom: 0;
+    }
+  }
+  .future__image{
+    display: none;
+  }
+  .future__info{
+    margin-bottom: 50px;
+  }
+  .future__form{
+    padding: 30px;
+  }
+  .input-title{
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .form-input{
+    min-height: 50px;
+    padding: 15px 20px;
+  }
+  .send-btn{
+    min-height: 50px;
+    padding: 13px;
+  }
+  .send-btn__image{
+    height: 30px;
+    width: 30px;
+  }
+}
+@media (max-width: 400px){
+  .header{
+    border-width: 70px;
+  }
+  .header__wrapper{
+    padding-bottom: 50px;
+  }
+  .header__search{
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    max-width: 75%;
+  }
+  .header__search-type-link{
+    margin-bottom: 15px;
+    &::after{
+      top: 0;
+    }
+  }
+  .header__info{
+    bottom: -55px;
+  }
+  .header__info-list-item{
+    padding: 0 15px;
+  }
+  .header__info-item-title{
+    font-size: 24px;
+  }
+  .header__info-item-desc{
+    font-size: 11px;
+  }
+  .consulting__title{
+    font-size: 38px;
+  }
+  .reviews__images{
+    flex-direction: column;
+    align-items: center;
+    &-photos{
+      margin: 0 0 20px -22px;
+    }
+  }
+  .future__wrapper{
+    padding: 70px 0;
+  }
+  .future__title{
+    font-size: 38px;
+  }
+  .footer__top{
+    padding: 50px 0;
+  }
+  .footer__desc{
+    text-align: center;
+  }
+  .footer__address{
+    display: none;
+  }
+}
+@media (max-width: 380px){
+  .header__title{
+    font-size: 32px;
+  }
+  .header__desc{
+    font-size: 12px;
+    max-width: 230px;
+  }
+  .consulting__info-image img{
+    height: 150px;
+  }
+  .consulting__info-title{
+    font-size: 28px;
+  }
+  .consulting__info-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .consulting__info-list{
+    max-width: 270px;
+    margin-bottom: 25px;
+  }
+  .consulting__info-item-text{
+    text-align: left;
+  }
+  .reviews__title{
+    font-size: 36px;
+  }
+}
+@media (max-width: 360px){
+  .reviews__qoute{
+    padding: 30px 30px 50px;
+  }
+  .reviews__qoute-top{
+    margin-bottom: 10px;
+  }
+  .reviews__qoute-desc{
+    font-size: 14px;
+  }
+  .future__text{
+    font-size: 14px;
+  }
+  .input-title{
+    font-size: 15px;
+    margin-bottom: 14px;
+  }
+  .form-input{
+    font-size: 16px;
+    min-height: 53px;
+  }
+  .send-btn{
+    min-height: 53px;
+    padding: 9px;
+  }
+}
+@media (max-width: 330px){
+  .reviews__title{
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .future__form{
+    padding: 20px;
+  }
+}
+@media (max-width: 310px){
+  .header__logo{
+    margin-bottom: 15px;
+  }
+  .header__btn{
+    margin-right: 10px;
+    padding: 10px 20px;
+    &:last-child{
+      padding: 10px 20px;
+    }
+  }
+  .header__desc{
+    margin-bottom: 30px;
+  }
+  .header__search-type-link{
+    font-size: 13px;
+  }
+  .header__info{
+    bottom: -51px;
+  }
+  .header__info-list-item{
+    padding: 0 10px;
+  }
+  .header__info-item-title{
+    font-size: 18px;
+  }
+  .header__info-item-desc{
+    font-size: 10px;
+  }
+  .consulting__wrapper{
+    padding: 50px 0;
+  }
+  .consulting__title{
+    font-size: 32px;
+  }
+  .consulting__info-image{
+    display: none;
+  }
+  .consulting__info-list{
+    list-style-type: none;
+    padding: 0;
+    max-width: 100%;
+  }
+  .consulting__info-item{
+    margin-bottom: 8px;
+  }
+  .consulting__info-item-text{
+    text-align: center;
+  }
+  .reviews__title{
+    font-size: 28px;
+  }
+  .reviews__desc{
+    font-size: 14x;
+  }
+  .reviews__title, .reviews__desc{
+    text-align: center;
+  }
+  .reviews__qoute{
+    padding: 20px 20px 30px;
+  }
+  .reviews__qoute-desc{
+    font-size: 12px;
+  }
+  .future__wrapper{
+    padding: 50px 0;
+  }
+  .future__title{
+    font-size: 34px;
+    margin-bottom: 25px;
+  }
+  .input-title{
+    font-size: 13px;
+  }
+}
